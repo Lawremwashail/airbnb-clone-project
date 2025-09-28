@@ -145,3 +145,30 @@ The frontend is designed to be fully responsive, ensuring that users can access 
 Security Features  
 Implements authentication, authorization, and data validation to protect user information and ensure safe transactions. Security is a core part of the system design.  
 
+## API Security
+
+Securing the backend APIs is a critical part of the Airbnb Clone Project. The following measures will be implemented to protect data, users, and the overall system:
+
+Authentication  
+Ensures that only registered users can access protected endpoints. This prevents unauthorized access to sensitive information such as user profiles, bookings, and payments.  
+
+Authorization  
+Controls what actions each user role (guest or host) can perform. For example, guests can create bookings but cannot manage other users’ properties, while hosts can add or update their own listings.  
+
+Data Validation and Sanitization  
+All incoming data will be validated and sanitized to prevent attacks such as SQL injection and cross-site scripting (XSS). This ensures that only clean and safe data is stored and processed.  
+
+Rate Limiting  
+Prevents abuse of the API by limiting the number of requests a user can make in a given timeframe. This protects against denial-of-service (DoS) attacks and keeps the system stable.  
+
+Encryption (HTTPS and Password Hashing)  
+All communication between the client and server will use HTTPS to secure data in transit. Passwords will be hashed using secure algorithms to protect user credentials even if the database is compromised.  
+
+Secure Payments  
+Payment processing will follow strict security protocols, including tokenization and encryption, to safeguard financial transactions and protect users’ payment information.  
+
+Why Security is Crucial  
+- Protects user data from being exposed to attackers.  
+- Ensures trust in the platform by securing bookings and payment systems.  
+- Prevents malicious activity that could disrupt the service.  
+- Provides compliance with security best practices for real-world applications.  
