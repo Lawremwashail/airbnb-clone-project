@@ -172,3 +172,4 @@ Why Security is Crucial
 - Ensures trust in the platform by securing bookings and payment systems.  
 - Prevents malicious activity that could disrupt the service.  
 - Provides compliance with security best practices for real-world applications.  
+
