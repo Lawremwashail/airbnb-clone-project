@@ -118,3 +118,30 @@ Relationships
 - A property can have many reviews, each written by a different guest.  
 - A booking can have one payment associated with it.  
  
+
+## Feature Breakdown
+
+User Management  
+Allows users to register, log in, and manage their accounts. Authentication and authorization ensure that users can only access features appropriate to their role (guest or host).  
+
+Property Management  
+Hosts can create, update, and delete property listings. Each listing includes details such as title, description, location, price per night, and availability.  
+
+Booking System  
+Guests can browse available properties and make reservations. The system manages check-in and check-out dates, calculates total prices, and prevents double bookings.  
+
+Review System  
+Guests can leave reviews and ratings for properties they have stayed in. This feature helps maintain trust and transparency within the platform by providing feedback for future guests.  
+
+Payment Processing  
+Enables guests to make secure payments for their bookings. Supports different payment methods and ensures transactions are properly recorded and linked to reservations.  
+
+Search and Filtering  
+Allows users to search for properties based on location, price, and availability. Filtering options help guests find the most suitable listings quickly.  
+
+Responsive Frontend  
+The frontend is designed to be fully responsive, ensuring that users can access the platform seamlessly across devices such as desktops, tablets, and mobile phones.  
+
+Security Features  
+Implements authentication, authorization, and data validation to protect user information and ensure safe transactions. Security is a core part of the system design.  
+
