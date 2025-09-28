@@ -173,3 +173,19 @@ Why Security is Crucial
 - Prevents malicious activity that could disrupt the service.  
 - Provides compliance with security best practices for real-world applications.  
 
+## CI/CD Pipeline
+
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of building, testing, and deploying the application. They ensure that code changes are integrated smoothly, tested thoroughly, and deployed consistently to production or staging environments.
+
+Importance of CI/CD  
+- Reduces human error by automating repetitive tasks such as testing and deployment.  
+- Speeds up the development cycle by allowing quick feedback on code changes.  
+- Ensures that the application remains stable and reliable with every new update.  
+- Makes collaboration easier by automatically running checks on pull requests and branches.  
+
+Tools for CI/CD  
+- GitHub Actions: Automates workflows such as running tests and deploying the application after each push or pull request.  
+- Docker: Packages the application into containers, ensuring consistency across development, testing, and production environments.  
+- Heroku / Vercel: Provides platforms for automated deployment, scaling, and monitoring of the application.  
+- Jenkins (optional): A powerful automation server that can be used for more complex pipelines.  
