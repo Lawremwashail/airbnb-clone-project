@@ -22,6 +22,36 @@ Through this project, contributors can understand real-world software architectu
 - Version Control: Git & GitHub for collaboration.
 - Deployment: Docker, Vercel, or Heroku.
 
-##################
+##
 The project is still under development, and contributions are welcome!
 
+## Team Roles
+
+The development of the Airbnb Clone Project involves different roles, each contributing to the success of the application. Below is an overview of the key roles, their responsibilities, and current assignments:
+
+- Project Manager (Lawrence)  
+Oversees the project timeline, milestones, and deliverables. Manages communication, planning, and coordination of different development tasks.
+
+- Frontend Developer (Lawrence)  
+Builds the user interface using React.js, CSS/SCSS, and TailwindCSS. Implements responsive design, integrates APIs, and ensures a seamless user experience.
+
+- Backend Developer (Lawrence)  
+Develops and maintains the server-side logic using Django. Implements RESTful APIs, authentication, and handles business logic for bookings, users, and property listings.
+
+- Database Administrator (Lawrence)  
+Designs and manages the PostgreSQL/MySQL database. Ensures data integrity, optimizes queries, and maintains security and backups.
+
+- DevOps Engineer (Open for Contribution)  
+Manages deployment, CI/CD pipelines, and containerization (Docker, Vercel, or Heroku). Ensures the system is scalable and reliable.
+
+- UI/UX Designer (Open for Contribution)  
+Creates wireframes, prototypes, and user flows. Focuses on user-friendly design, accessibility, and overall platform aesthetics.
+
+- Quality Assurance (QA) Engineer (Open for Contribution)  
+Tests the application for bugs, vulnerabilities, and performance issues. Writes and executes manual/automated test cases to ensure reliability.
+
+- Security Specialist (Open for Contribution)  
+Ensures the application follows best practices in authentication, authorization, and data protection. Reviews security measures to prevent vulnerabilities.
+
+Currently, I am handling most of the roles. However, the project is open for collaboration, and contributors are welcome to take on specific roles to strengthen the project.
+ 
