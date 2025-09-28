@@ -54,4 +54,35 @@ Tests the application for bugs, vulnerabilities, and performance issues. Writes 
 Ensures the application follows best practices in authentication, authorization, and data protection. Reviews security measures to prevent vulnerabilities.
 
 Currently, I am handling most of the roles. However, the project is open for collaboration, and contributors are welcome to take on specific roles to strengthen the project.
+
+## Technology Stack
+
+The Airbnb Clone Project uses a modern full-stack technology stack to deliver a scalable and reliable booking platform. Each technology plays a specific role in the development process:
+
+- React.js  
+A frontend JavaScript library used for building interactive user interfaces. It allows the creation of reusable components and provides a seamless user experience.
+
+- CSS/SCSS and TailwindCSS  
+Styling technologies used to design responsive and visually appealing layouts. TailwindCSS accelerates development with utility-first classes, while SCSS enables modular and maintainable styles.
+
+- Django  
+A Python-based web framework that powers the backend of the project. It is responsible for handling business logic, building RESTful APIs, managing authentication, and integrating with the database.
+
+- PostgreSQL / MySQL  
+Relational database systems used to store and manage structured data. They maintain relationships between users, listings, and reservations while ensuring data integrity and reliability.
+
+- JWT (JSON Web Tokens) / OAuth  
+Authentication methods that secure the application. JWT is used to manage user sessions, while OAuth provides an option for third-party logins (such as Google or Facebook).
+
+- RESTful API  
+Defines how the frontend and backend communicate. It ensures a standardized way of sending and receiving data between client and server.
+
+- Git and GitHub  
+Version control and collaboration tools. Git tracks changes to the codebase, and GitHub provides a platform for hosting, reviewing, and collaborating on the project.
+
+- Docker  
+Used for containerization and deployment. It ensures that the application runs consistently across different environments by packaging dependencies and configurations.
+
+- Vercel / Heroku  
+Deployment platforms that host the application in production. They provide scalability, automatic builds, and easy integration with GitHub for continuous deployment.
  
