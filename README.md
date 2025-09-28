@@ -85,4 +85,36 @@ Used for containerization and deployment. It ensures that the application runs c
 
 - Vercel / Heroku  
 Deployment platforms that host the application in production. They provide scalability, automatic builds, and easy integration with GitHub for continuous deployment.
+
+
+## Database Design
+
+The Airbnb Clone Project uses a relational database (PostgreSQL/MySQL) to store and manage data. The main entities and their relationships are as follows:
+
+Users  
+Fields: id, name, email, password, role (guest/host)  
+Description: Represents the people using the platform. A user can act as a guest (making bookings) or as a host (listing properties).  
+
+Properties  
+Fields: id, user_id (host), title, description, location, price_per_night  
+Description: Represents the listings on the platform. Each property belongs to a host (user) and can have multiple bookings.  
+
+Bookings  
+Fields: id, user_id (guest), property_id, check_in_date, check_out_date, total_price  
+Description: Represents reservations made by guests. A booking belongs to one user (guest) and one property.  
+
+Reviews  
+Fields: id, user_id (guest), property_id, rating, comment  
+Description: Represents feedback from guests about properties. A review belongs to one user (guest) and one property.  
+
+Payments  
+Fields: id, booking_id, amount, payment_method, status  
+Description: Represents payments made for bookings. Each payment is linked to one booking.  
+
+Relationships  
+- A user (host) can list multiple properties.  
+- A property can have many bookings.  
+- A booking is made by one user (guest) for one property.  
+- A property can have many reviews, each written by a different guest.  
+- A booking can have one payment associated with it.  
  
